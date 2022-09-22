@@ -23,3 +23,10 @@ _jika tidak menggunakan password, langsung saja enter_
 - ```desc namatabel;``` untuk **melihat struktur tabel**
 - ```drop table namatabel;``` untuk **menghapus tabel**
 
+**Membuat tabel baru** perintahnya adalah
+```
+CREATE TABLE namatabel (
+  namakolom typedata(panjangdata),
+  namakolom typedata(panjangdata) NOT NULL
+);
+```
