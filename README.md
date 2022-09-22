@@ -75,4 +75,4 @@ insert into kitab values
 (“123","Tijan Darori”),
 (“124","Aqidatul Awam”);
 ```
-_value_ harus diganti dengan _values_
+_**value**_ harus diganti dengan _**values**_
