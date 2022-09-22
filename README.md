@@ -61,4 +61,10 @@ alter table kitab change namakitab ismulkitab varchar(100);
 ```
 
 ### Mengisi Record Tabel
-```insert into namatabel value (“isi field1","isi field2”);```
+```
+insert into namatabel value (“isi field1","isi field2”);
+```
+contoh
+```
+insert into kitab value (“122","jawahirul kalamiyah”);
+```
