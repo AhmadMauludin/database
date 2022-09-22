@@ -25,7 +25,7 @@ _jika tidak menggunakan password, langsung saja enter_
 
 # Operasi pada tabel
 ### Membuat tabel baru
->
+```
 create table namatabel (
   namakolom typedata(panjangdata),
   namakolom typedata(panjangdata)
