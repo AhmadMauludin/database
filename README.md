@@ -10,3 +10,4 @@ Pertama tama kalian pastikan berada pada direktori / folder yang tepat, yaitu pa
 - keluar direktori dengan menggunakan perintah ```cd..```
 - masuk / memilih direktori dengan menggunakan perintah ```cd namadirektori```
 - maka gunakan perintah berikut ```cd xampp\mysql\bin```
+- setelah anda berada pada direktori tersebut, masukan perintah ```mysql -u root -p``` lalu masukkan password
