@@ -85,7 +85,7 @@ SELECT idkitab, namakitab FROM kitab';
 # Operasi pada field
 ### Mengubah nama field
 ```
-alter table namatabel change fieldlama fieldbaru typedata(pandangdata);
+alter table namatabel change fieldlama fieldbaru typedata(panjangdata);
 ```
 Contoh
 ```
