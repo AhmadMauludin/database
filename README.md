@@ -25,8 +25,15 @@ _jika tidak menggunakan password, langsung saja enter_
 
 **Membuat tabel baru** perintahnya adalah
 ```
-CREATE TABLE namatabel (
+create table namatabel (
   namakolom typedata(panjangdata),
   namakolom typedata(panjangdata)
 );
+```
+contohnya :
+```
+create table kitab (
+    -> idkitab int(3),
+    -> namakitab varchar(50)
+    -> );
 ```
