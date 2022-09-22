@@ -7,5 +7,6 @@
 
 ### Menggunakan CMD
 Pertama tama kalian pastikan berada pada direktori / folder yang tepat, yaitu pada direktri **xampp\mysql\bin**
-- keliar direktori dengan menggunakan perintah ```cd..```
+- keluar direktori dengan menggunakan perintah ```cd..```
 - masuk / memilih direktori dengan menggunakan perintah ```cd namadirektori```
+- maka gunakan perintah berikut ```cd xampp\mysql\bin```
