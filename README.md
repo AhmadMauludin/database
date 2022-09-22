@@ -64,7 +64,14 @@ alter table kitab change namakitab ismulkitab varchar(100);
 ```
 insert into namatabel value (“isi field1","isi field2”);
 ```
-contoh
+contoh :
 ```
 insert into kitab value (“122","jawahirul kalamiyah”);
+```
+jika recordnya lebih dari 1 baris maka bisa menggunakan printah :
+```
+insert into kitab value
+(“122","jawahirul kalamiyah”),
+(“123","Tijan Darori”),
+(“124","Aqidatul Awam”);
 ```
