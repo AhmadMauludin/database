@@ -88,13 +88,22 @@ _**value**_ harus diganti dengan _**values**_
 
 ### Mengubah record Tabel
 ```
-UPDATE  namatabel  SET  namafield = data baru   WHERE   kondisi
+update  namatabel  set  namafield = data baru   where   kondisi;
 ```
 contoh :
 ```
-UPDATE  kitab  SET  ismulkitab = "Safinah"   WHERE   idkitab = 122
+update  kitab  set  ismulkitab = "Safinah"   where   idkitab = 122;
 ```
-atau
+atau :
 ```
-UPDATE  kitab  SET  ismulkitab = "Safinah", idkitab = 343   WHERE   idkitab = 122
+update  kitab  set  ismulkitab = "Safinah", idkitab = 343   where   idkitab = 122;
+```
+
+### Menghapus record tabel
+```
+delete from nama_tabel where kondisi;
+```
+contoh :
+```
+delete from kitab where idkitab = 343;
 ```
