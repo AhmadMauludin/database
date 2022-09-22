@@ -47,6 +47,6 @@ contoh :
 ```
 create table kitab (
   -> idkitab int AUTO_INCREMENT PRIMARY KEY,
-  -> nama varchar(50) NOT NULL
+  -> namakitab varchar(50) NOT NULL
   -> );
 ```
