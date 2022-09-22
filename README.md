@@ -27,16 +27,16 @@ _jika tidak menggunakan password, langsung saja enter_
 ### Membuat tabel baru
 ```
 create table namatabel (
-  namakolom typedata(panjangdata),
-  namakolom typedata(panjangdata)
+namakolom typedata(panjangdata),
+namakolom typedata(panjangdata)
 );
 ```
 contohnya :
 ```
 create table kitab (
-    -> idkitab int(3),
-    -> namakitab varchar(50)
-    -> );
+idkitab int(3),
+namakitab varchar(50)
+);
 ```
 kita juga dapat menambahkan script
 - ```AUTO_INCREMENT``` untuk **membuat record field integer terisi otomatis**
@@ -46,9 +46,9 @@ kita juga dapat menambahkan script
 contoh :
 ```
 create table kitab (
-  -> idkitab int AUTO_INCREMENT PRIMARY KEY,
-  -> namakitab varchar(50) NOT NULL
-  -> );
+idkitab int AUTO_INCREMENT PRIMARY KEY,
+namakitab varchar(50) NOT NULL
+);
 ```
 
 ### Menampilkan isi tabel
