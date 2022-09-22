@@ -109,5 +109,5 @@ delete from kitab where idkitab = 343;
 ```
 ### Menghapus seluruh record tabel
 ```
-TRUNCATE TABLE namatabel ;
+TRUNCATE TABLE namatabel;
 ```
