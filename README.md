@@ -56,6 +56,10 @@ namakitab varchar(50) NOT NULL
 ```
 SELECT * FROM namatabel;
 ```
+contoh :
+```
+SELECT * FROM kitab;
+```
 
 - Menampilkan isi tabel dengan kondisi tertentu
 ```
