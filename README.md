@@ -52,21 +52,18 @@ create table kitab (
 ```
 
 ### Menampilkan isi tabel
-Menampilkan seluruh isi tabel
+- Menampilkan seluruh isi tabel
 ```
 SELECT * FROM namatabel;
 ```
 
-Menampilkan isi tabel dengan kondisi tertentu
+- Menampilkan isi tabel dengan kondisi tertentu
 ```
 SELECT * FROM namatable WHERE namakolom = 'nilaifilter';
 ```
 
-Menampilkan tabel dengan field tertentu
-```
-SELECT namafield FROM namatable;
-```
-
+- Menampilkan tabel dengan field tertentu
+```SELECT namafield FROM namatable;``` atau ```SELECT namafield1, namafield2 FROM namatable';
 # Operasi pada field
 ### Mengubah nama field
 ```
