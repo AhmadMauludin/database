@@ -92,5 +92,9 @@ UPDATE  namatabel  SET  namafield = data baru   WHERE   kondisi
 ```
 contoh :
 ```
-UPDATE  kitab  SET  ismulkitab = Safinah   WHERE   idkitab = 122
+UPDATE  kitab  SET  ismulkitab = "Safinah"   WHERE   idkitab = 122
+```
+atau
+```
+UPDATE  kitab  SET  ismulkitab = "Safinah", idkitab = 343   WHERE   idkitab = 122
 ```
