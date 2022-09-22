@@ -38,3 +38,15 @@ create table kitab (
     -> namakitab varchar(50)
     -> );
 ```
+kita juga dapat menambahkan script
+```AUTO_INCREMENT``` untuk **membuat record field integer terisi otomatis**
+```PRIMARY KEY``` untuk **memilih salahsatu atribut primary key** dari salahsatu field
+```NOT NULL``` agar **record file harus selalu diisi**
+
+contoh :
+```
+create table kitab (
+  -> idkitab int AUTO_INCREMENT PRIMARY KEY,
+  -> nama varchar(50) NOT NULL
+  -> );
+```
