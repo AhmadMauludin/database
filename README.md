@@ -27,6 +27,6 @@ _jika tidak menggunakan password, langsung saja enter_
 ```
 CREATE TABLE namatabel (
   namakolom typedata(panjangdata),
-  namakolom typedata(panjangdata) NOT NULL
+  namakolom typedata(panjangdata)
 );
 ```
