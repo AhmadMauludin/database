@@ -52,4 +52,6 @@ create table kitab (
 ```
 
 **Mengubah nama field**
-```alter table namatabel change fieldlama fieldbaru typedata(pandangdata);```
+```
+alter table namatabel change fieldlama fieldbaru typedata(pandangdata);
+```
