@@ -23,7 +23,7 @@ _jika tidak menggunakan password, langsung saja enter_
 - ```desc namatabel;``` untuk **melihat struktur tabel**
 - ```drop table namatabel;``` untuk **menghapus tabel**
 
-### Membuat tabel baru
+### Operasi pada tabel
 **Membuat tabel baru** perintahnya adalah
 ```
 create table namatabel (
@@ -50,3 +50,6 @@ create table kitab (
   -> namakitab varchar(50) NOT NULL
   -> );
 ```
+
+**Mengubah nama field**
+```alter table namatabel change fieldlama fieldbaru typedata(pandangdata);```
