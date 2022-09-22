@@ -60,6 +60,15 @@ Contoh
 alter table kitab change namakitab ismulkitab varchar(100);
 ```
 
+### Menghapus field
+```
+alter table namatabel drop namafield;
+```
+Contoh :
+```
+alter table kitab drop ismulkitab;
+ ```
+ 
 ### Mengisi Record Tabel
 ```
 insert into namatabel value (“isi field1","isi field2”);
