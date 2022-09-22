@@ -87,3 +87,10 @@ insert into kitab values
 _**value**_ harus diganti dengan _**values**_
 
 ### Mengubah record Tabel
+```
+UPDATE  namatabel  SET  namafield = data baru   WHERE   kondisi
+```
+contoh :
+```
+UPDATE  kitab  SET  ismulkitab = Safinah   WHERE   idkitab = 122
+```
