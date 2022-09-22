@@ -55,3 +55,7 @@ create table kitab (
 ```
 alter table namatabel change fieldlama fieldbaru typedata(pandangdata);
 ```
+Contoh
+```
+alter table kitab change namakitab ismulkitab varchar(100);
+```
