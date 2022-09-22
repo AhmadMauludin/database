@@ -20,6 +20,6 @@ _jika tidak menggunakan password, langsung saja enter_
 - ```drop database namadatabase;``` untuk **menghapus database**
 - ```use namadatabase;``` untuk **memilih database**
 - ```show tables;``` untuk **melihat tabel** apa saja yang ada pada database tersebut
-- ```desc nama_tabel;``` untuk **melihat struktur tabel**
+- ```desc namatabel;``` untuk **melihat struktur tabel**
 - ```drop table namatabel;``` untuk **menghapus tabel**
 
