@@ -7,3 +7,4 @@
 
 ### Menggunakan CMD
 Pertama tama kalian pastikan berada pada direktori / folder yang tepat
+anda bisa keliar direktori dengan menggunakan perintah ```cd..```
