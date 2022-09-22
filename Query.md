@@ -1,1 +1,1 @@
-
+# QUERY PADA SQL
