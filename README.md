@@ -63,7 +63,7 @@ SELECT * FROM namatable WHERE namakolom = 'nilaifilter';
 ```
 
 - Menampilkan tabel dengan field tertentu
-```SELECT namafield FROM namatable;``` atau ```SELECT namafield1, namafield2 FROM namatable';
+```SELECT namafield FROM namatable;``` atau ```SELECT namafield1, namafield2 FROM namatable';```
 # Operasi pada field
 ### Mengubah nama field
 ```
