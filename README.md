@@ -65,6 +65,10 @@ SELECT * FROM kitab;
 ```
 SELECT * FROM namatable WHERE namakolom = 'nilaifilter';
 ```
+contoh :
+```
+SELECT * FROM kitab WHERE idkitab = '121';
+```
 
 - Menampilkan tabel dengan field tertentu
 ```
@@ -74,7 +78,10 @@ atau
 ```
 SELECT namafield1, namafield2 FROM namatable';
 ```
-
+contoh :
+```
+SELECT idkitab, namakitab FROM kitab';
+```
 # Operasi pada field
 ### Mengubah nama field
 ```
