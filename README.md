@@ -50,6 +50,23 @@ create table kitab (
   -> namakitab varchar(50) NOT NULL
   -> );
 ```
+
+### Menampilkan isi tabel
+Menampilkan seluruh isi tabel
+```
+SELECT * FROM namatabel;
+```
+
+Menampilkan isi tabel dengan kondisi tertentu
+```
+SELECT * FROM namatable WHERE namakolom = 'nilaifilter';
+```
+
+Menampilkan tabel dengan field tertentu
+```
+SELECT namafield FROM namatable;
+```
+
 # Operasi pada field
 ### Mengubah nama field
 ```
