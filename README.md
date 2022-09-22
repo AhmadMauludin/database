@@ -16,5 +16,7 @@ _jika tidak menggunakan password, langsung saja enter_
 
 ### Operasi pada database
 - ```show databases;``` untuk **Melihat database** yang ada pada direktori tersebut
+- ```create database namadatabase``` untuk **membuat database baru**
+- ```drop database namadatabase``` untuk **menghapus database**
 - ```use namadatabase;``` untuk **memilih database**
 - ```show tables;``` untuk **melihat tabel** apa saja yang ada pada database tersebut
