@@ -23,6 +23,7 @@ _jika tidak menggunakan password, langsung saja enter_
 - ```desc namatabel;``` untuk **melihat struktur tabel**
 - ```drop table namatabel;``` untuk **menghapus tabel**
 
+### Membuat tabel baru
 **Membuat tabel baru** perintahnya adalah
 ```
 create table namatabel (
