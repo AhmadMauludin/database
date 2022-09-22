@@ -24,7 +24,7 @@ _jika tidak menggunakan password, langsung saja enter_
 - ```drop table namatabel;``` untuk **menghapus tabel**
 
 # Operasi pada tabel
-###Membuat tabel baru
+### Membuat tabel baru
 ```
 create table namatabel (
   namakolom typedata(panjangdata),
@@ -50,7 +50,7 @@ create table kitab (
   -> namakitab varchar(50) NOT NULL
   -> );
 ```
-# OPERASI PADA FIELD
+# Operasi pada field
 ### Mengubah nama field
 ```
 alter table namatabel change fieldlama fieldbaru typedata(pandangdata);
@@ -68,7 +68,7 @@ Contoh :
 ```
 alter table kitab drop ismulkitab;
  ```
-# OPERASI PADA RECORD 
+# Operasi pada record 
 ### Mengisi Record Tabel
 ```
 insert into namatabel value (“isi field1","isi field2”);
