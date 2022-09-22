@@ -51,7 +51,7 @@ create table kitab (
   -> );
 ```
 
-##Mengubah nama field
+### Mengubah nama field
 ```
 alter table namatabel change fieldlama fieldbaru typedata(pandangdata);
 ```
@@ -60,5 +60,5 @@ Contoh
 alter table kitab change namakitab ismulkitab varchar(100);
 ```
 
-##Mengisi Record Tabel
+### Mengisi Record Tabel
 ```insert into namatabel value (“isi field1","isi field2”);```
