@@ -101,7 +101,7 @@ insert into kitab value (“122","jawahirul kalamiyah”);
 jika recordnya lebih dari 1 baris maka bisa menggunakan printah :
 ```
 insert into kitab values
-(“122","jawahirul kalamiyah”),
+(“121","Tajwidul Quran”),
 (“123","Tijan Darori”),
 (“124","Aqidatul Awam”);
 ```
